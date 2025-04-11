@@ -1,0 +1,16 @@
+{
+  "materials": [
+    {
+      "item": "minecraft:netherrack",
+      "count": 4
+    },
+    {
+      "item": "minecraft:lava_bucket",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "minecraft:magma_block",
+    "count": 1
+  }
+}

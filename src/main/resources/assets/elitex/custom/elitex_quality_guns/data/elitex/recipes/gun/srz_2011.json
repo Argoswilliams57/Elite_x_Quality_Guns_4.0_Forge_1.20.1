@@ -1,0 +1,14 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 13
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "elitex:srz_2011"
+  }
+}

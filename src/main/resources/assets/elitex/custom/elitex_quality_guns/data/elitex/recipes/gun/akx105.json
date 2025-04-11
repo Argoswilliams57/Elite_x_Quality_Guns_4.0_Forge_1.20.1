@@ -1,0 +1,26 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 45
+    },
+    {
+      "item": {
+        "item": "minecraft:stick"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:black_dye"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "elitex:akx105"
+  }
+}
