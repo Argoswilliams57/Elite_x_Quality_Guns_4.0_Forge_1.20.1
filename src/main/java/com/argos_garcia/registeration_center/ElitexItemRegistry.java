@@ -1,6 +1,6 @@
-package com.enfield_garcia.registeration_center;
+package com.argos_garcia.registeration_center;
 
-import com.enfield_garcia.elitex.EliteXQualityGuns;
+import com.argos_garcia.elitex.EliteXQualityGuns;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;

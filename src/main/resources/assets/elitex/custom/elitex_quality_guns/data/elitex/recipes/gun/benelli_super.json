@@ -1,0 +1,14 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 48
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "elitex:benelli_super"
+  }
+}

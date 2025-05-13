@@ -1,8 +1,8 @@
-package com.enfield_garcia.elitex;
+package com.argos_garcia.elitex;
 
 
-import com.enfield_garcia.registeration_center.EliteXCreativeTabRegistry;
-import com.enfield_garcia.registeration_center.ElitexItemRegistry;
+import com.argos_garcia.registeration_center.EliteXCreativeTabRegistry;
+import com.argos_garcia.registeration_center.ElitexItemRegistry;
 import com.tacz.guns.api.resource.ResourceManager;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.IEventBus;

@@ -13,7 +13,7 @@ apply plugin: 'maven-publish'
 
 
 
-version = "4.0.2 beta"
+version = "4.0.3 beta"
 group = "com.elitexstudios.elitex"
 archivesBaseName = "Elite X Quality Guns Forge"
 

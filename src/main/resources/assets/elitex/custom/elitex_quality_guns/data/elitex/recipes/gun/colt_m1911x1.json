@@ -1,0 +1,20 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "minecraft:planks"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "elitex:colt_m1911x1"
+  }
+}

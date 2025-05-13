@@ -1,6 +1,6 @@
-package com.enfield_garcia.registeration_center;
+package com.argos_garcia.registeration_center;
 
-import com.enfield_garcia.elitex.EliteXQualityGuns;
+import com.argos_garcia.elitex.EliteXQualityGuns;
 import com.tacz.guns.init.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.nbt.CompoundTag;

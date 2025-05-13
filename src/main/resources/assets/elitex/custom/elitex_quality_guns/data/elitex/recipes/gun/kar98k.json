@@ -1,0 +1,20 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 37
+    },
+    {
+      "item": {
+        "tag": "minecraft:planks"
+      },
+      "count": 5
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "elitex:kar98k"
+  }
+}
