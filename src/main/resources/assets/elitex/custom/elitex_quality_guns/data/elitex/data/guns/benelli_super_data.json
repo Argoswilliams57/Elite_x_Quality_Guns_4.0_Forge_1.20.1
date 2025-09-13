@@ -1,6 +1,6 @@
 {
   "ammo": "tacz:12g",
-  "rpm": 160,
+  "rpm": 130,
   "bullet": {
     "life": 0.9,
     "bullet_amount": 16,
@@ -24,29 +24,47 @@
     "pierce": 1
   },
   "ammo_amount": 8,
-  "bolt": "closed_bolt",
   "reload": {
     "type": "magazine",
     "feed": {
-      "empty": 3.71,
-      "tactical": 2.42
+      "empty": 0.48,
+      "tactical": 0.64
     },
     "cooldown": {
-      "empty": 4.54,
-      "tactical": 3.33
+      "empty": 0.62,
+      "tactical": 0.78
     }
   },
-  "draw_time": 0.75,
-  "put_away_time": 0.88,
+  "bolt": "manual_action",
+
+
+  "script": "elitex:pump_action_logic",
+  "script_param": {
+    "bolt_time": 0.55,
+    "bolt_feed_time": 0.3,
+    "intro_empty": 1.44,
+    "intro": 0.22,
+    "loop": 0.6,
+    "ending": 0.52,
+    "intro_empty_feed": 1.24,
+    "loop_feed": 0.3
+  },
+
+  "draw_time": 0.7,
+  "put_away_time": 0.58,
   "aim_time": 0.2,
   "sprint_time": 0.21,
   "fire_mode": [
     "semi"
   ],
+
+
   "allow_attachment_types": [
     "scope",
     "muzzle"
   ],
+
+
   "recoil": {
     "pitch": [
       {"time": 0, "value": [0.25, 0.25]},

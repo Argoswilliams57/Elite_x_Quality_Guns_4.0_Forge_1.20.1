@@ -1,5 +1,3 @@
--- sp_m1903_gun_state_machine.lua
-
 local default = require("tacz_manual_action_state_machine")
 local STATIC_TRACK_LINE = default.STATIC_TRACK_LINE
 local MAIN_TRACK = default.MAIN_TRACK
@@ -27,6 +25,13 @@ function reload_state.entry(this, context)
     local max_ammo = context:getMaxAmmoCount()
     local missing = max_ammo - mag_ammo
 
+    -- Clamp missing ammo so no invalid animation call
+    if missing > 9 then
+        missing = 9
+    elseif missing < 0 then
+        missing = 0
+    end
+
     local anim = ""
 
     if missing == 0 and has_chambered then
@@ -34,7 +39,17 @@ function reload_state.entry(this, context)
         anim = "gun_check"
     elseif mag_ammo == 0 and not has_chambered then
         anim = "reload_empty"
-    elseif missing >= 4 then
+    elseif missing == 9 then
+        anim = "reload_9"
+    elseif missing == 8 then
+        anim = "reload_8"
+    elseif missing == 7 then
+        anim = "reload_7"
+    elseif missing == 6 then
+        anim = "reload_6"
+    elseif missing == 5 then
+        anim = "reload_5"
+    elseif missing == 4 then
         anim = "reload_4"
     elseif missing == 3 then
         anim = "reload_3"

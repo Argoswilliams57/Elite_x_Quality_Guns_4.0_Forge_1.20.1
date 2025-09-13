@@ -6,6 +6,8 @@
     "model": "elitex:shell/sig_fury_ammo_shell",
     "texture": "elitex:shell/sig_fury_ammo_shell"
   },
+
+
   "tracer_color": "#FF8888",
   "transform": {
     "scale": {

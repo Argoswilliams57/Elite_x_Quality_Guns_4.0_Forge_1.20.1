@@ -1,11 +1,19 @@
 Golden spas 12 texture by Star 
 
 M4 Lod model by Rickrollercoaster
-French Famas F1 lod model by Rickroller coaster ever thing
+French Famas F1 lod model by Rickroller coaster
 
-Rest of th gun models with Animations Are Owned and a property  of Argos Williams
+Springfield m1903 model by iforgot 
+Cz Bren 75 801 A1 model by iforgot 
+Lee Enfield Model by iforgot
+M1 garand Animations by Live Draw Void big thanks you soooo much
+M1 Garand Retecxture by Chaos Craft
 
-Black ops 1 m1911 silver Varient Sounds by tryarch Activision
+M100 Sassy Model by iforgot
+intervention Sniper Model by iforgot
 
-Ray gun mark 2 inspired by Cod Zombies
-Wonder waffe Inspired by Cod Zombies
+
+Simple M1 garand lua Script by Argos Williams
+
+M1 garand statemachine backup was used with permission from Silver hamster the creator of gunpowder revolution gunpack
+Rest of th gun models with Animations Are Owned and a Intellectual property  of Argos Williams

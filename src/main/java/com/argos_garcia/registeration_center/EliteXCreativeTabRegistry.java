@@ -34,13 +34,16 @@ public class EliteXCreativeTabRegistry {
                         output.accept(createCustomNBTItem(GunItem, "elitex:jrx", 20, "SEMI", true, "elitex.gun.jrx.name"));
                         output.accept(createCustomNBTItem(GunItem, "elitex:five_seven", 20, "SEMI", true, "elitex.gun.five_seven.name"));
                         output.accept(createCustomNBTItem(GunItem, "elitex:srz_2011", 16, "SEMI", true, "elitex.gun.srz_2011.name"));
-                        output.accept(createCustomNBTItem(GunItem, "elitex:bo1_1911", 8, "SEMI", true, "elitex.gun.bo1_m1911.name"));
+                        output.accept(createCustomNBTItem(GunItem, "elitex:bo1_1911", 8, "SEMI", true, "elitex.gun.bo1_1911.name"));
                         output.accept(createCustomNBTItem(GunItem, "elitex:op1911", 7, "SEMI", true, "elitex.gun.op1911.name"));
                         output.accept(createCustomNBTItem(GunItem, "elitex:springfield_m1911", 7, "SEMI", true, "elitex.gun.springfield_m1911.name"));
+                        output.accept(createCustomNBTItem(GunItem, "elitex:raygun_bo6", 20, "AUTO", false, "elitex.gun.raygun_bo6.name"));
+                        output.accept(createCustomNBTItem(GunItem, "elitex:trs_bull", 5, "SEMI", false, "elitex.gun.trs_bull.name"));
 
 
                         //Smgs
                         output.accept(createCustomNBTItem(GunItem, "elitex:ro635v3", 32, "AUTO", true, "elitex.gun.ro635v3.name"));
+                        output.accept(createCustomNBTItem(GunItem, "elitex:mp5_classic", 30, "AUTO", true, "elitex.gun.mp5_classic.name"));
 
 
                         //Assault Rifles
@@ -49,6 +52,8 @@ public class EliteXCreativeTabRegistry {
                         output.accept(createCustomNBTItem(GunItem, "elitex:mcs_spear", 20, "AUTO", true, "elitex.gun.mcs_spear.name"));
                         output.accept(createCustomNBTItem(GunItem, "elitex:famas_f1", 25, "AUTO", true, "elitex.gun.famas_f1.name"));
                         output.accept(createCustomNBTItem(GunItem, "elitex:akx105", 30, "AUTO", true, "elitex.gun.akx105.name"));
+                        output.accept(createCustomNBTItem(GunItem, "elitex:sassy_dmr", 20, "AUTO", true, "elitex.gun.sassy_dmr.name"));
+
 
 
                         //Wonder Weapons
@@ -65,6 +70,13 @@ public class EliteXCreativeTabRegistry {
 
                         //Bolt Action Rifles
                         output.accept(createCustomNBTItem(GunItem, "elitex:kar98k", 5, "SEMI", false, "elitex.gun.kar98k.name"));
+                        output.accept(createCustomNBTItem(GunItem, "elitex:m1_garand", 8, "SEMI", false, "elitex.gun.m1_garand.name"));
+                        output.accept(createCustomNBTItem(GunItem, "elitex:lee", 10, "SEMI", false, "elitex.gun.lee.name"));
+                        output.accept(createCustomNBTItem(GunItem, "elitex:sp_m1903", 5, "SEMI", false, "elitex.gun.sp_m1903.name"));
+
+
+                        //Snipers
+                        output.accept(createCustomNBTItem(GunItem, "elitex:inter_m200", 7, "SEMI", true, "elitex.gun.inter_m200.name"));
 
 
 

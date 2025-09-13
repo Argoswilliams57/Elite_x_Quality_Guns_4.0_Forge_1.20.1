@@ -41,7 +41,23 @@
       "tactical": 2.46
     }
   },
- "draw_time": 1.08,
+
+//  "script": "elitex:firing_logic",
+//  "script_param": {
+//    "shoot_anim": "shoot",
+//    "shoot_1_anim": "shoot_1",
+//    "shoot_2_anim": "shoot_2",
+//    "shoot_last_anim": "shoot_last"
+//  },
+
+
+
+
+
+
+
+
+  "draw_time": 1.08,
   "put_away_time": 0.54,
   "aim_time": 0.1,
   "sprint_time": 0.1,

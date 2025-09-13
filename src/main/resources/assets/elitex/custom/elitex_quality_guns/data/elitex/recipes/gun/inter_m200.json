@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 130
+    },
+    {
+      "item": {
+        "item": "minecraft:glass"
+      },
+      "count": 7
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/redstone"
+      },
+      "count": 2
+    }
+
+  ],
+  "result": {
+    "type": "gun",
+    "id": "elitex:inter_m200"
+  }
+}

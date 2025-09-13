@@ -13,7 +13,8 @@
 			"bones": [
 				{
 					"name": "root",
-					"pivot": [0, 6.15625, 3.875]
+					"pivot": [0, 6.15625, 3.875],
+					"rotation": [0, 0, 17]
 				},
 				{
 					"name": "righthand",
@@ -8976,6 +8977,11 @@
 					"pivot": [-0.1875, 8.18125, 0.9125]
 				},
 				{
+					"name": "constraint",
+					"parent": "root",
+					"pivot": [0, 8.7875, -3.69375]
+				},
+				{
 					"name": "positioning",
 					"pivot": [0, 0, -8]
 				},
@@ -9007,8 +9013,8 @@
 				{
 					"name": "iron_view",
 					"parent": "view",
-					"pivot": [0.84375, 8.8625, 15.625],
-					"rotation": [0, 0, 17.5]
+					"pivot": [0.80571, 8.78758, 13.05667],
+					"rotation": [0.5, 0, 17.5]
 				},
 				{
 					"name": "refit_view",

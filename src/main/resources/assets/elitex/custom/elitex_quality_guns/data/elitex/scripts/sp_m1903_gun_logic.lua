@@ -1,4 +1,3 @@
--- spm,1903_logic.lua
 local M = {}
 
 function M.shoot(api)
@@ -20,21 +19,40 @@ function M.tick_reload(api)
     local param = api:getScriptParams()
     local reload_time = api:getReloadTime()
 
+    -- Clamp ammo_needed to max 9 to match animations
+    local ammo_needed = cache.ammo_needed
+    if ammo_needed > 9 then
+        ammo_needed = 9
+    elseif ammo_needed < 0 then
+        ammo_needed = 0
+    end
+
     local anim_name = ""
     if cache.is_empty then
         anim_name = "reload_empty"
-    elseif cache.ammo_needed >= 4 then
+    elseif ammo_needed == 9 then
+        anim_name = "reload_9"
+    elseif ammo_needed == 8 then
+        anim_name = "reload_8"
+    elseif ammo_needed == 7 then
+        anim_name = "reload_7"
+    elseif ammo_needed == 6 then
+        anim_name = "reload_6"
+    elseif ammo_needed == 5 then
+        anim_name = "reload_5"
+    elseif ammo_needed == 4 then
         anim_name = "reload_4"
-    elseif cache.ammo_needed == 3 then
+    elseif ammo_needed == 3 then
         anim_name = "reload_3"
-    elseif cache.ammo_needed == 2 then
+    elseif ammo_needed == 2 then
         anim_name = "reload_2"
-    elseif cache.ammo_needed == 1 then
+    elseif ammo_needed == 1 then
         anim_name = "reload_1"
     else
         anim_name = "gun_check"
     end
 
+    -- Get timing from script params or fallback defaults
     local feed = (param[anim_name .. "_feed"] or 1.0) * 1000
     local cooldown = (param[anim_name .. "_cooldown"] or 2.0) * 1000
 

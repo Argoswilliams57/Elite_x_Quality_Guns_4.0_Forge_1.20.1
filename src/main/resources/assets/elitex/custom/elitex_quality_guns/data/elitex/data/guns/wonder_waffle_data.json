@@ -43,6 +43,18 @@
       "tactical": 4.25
     }
   },
+
+//  "script": "elitex:randomized_logic",
+//  "script_param": {
+//    "random_shoot_anims": [
+//      "shoot_left",
+//      "shoot_right",
+//      "shoot_down",
+//      "shoot_up"
+//    ]
+//  },
+
+
   "draw_time": 0.67,
   "put_away_time": 0.54,
   "aim_time": 0.1,
