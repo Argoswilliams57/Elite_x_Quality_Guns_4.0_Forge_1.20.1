@@ -36,7 +36,6 @@ dependencies {
 	//modImplementation "mod:tacz-fabric-1.20.1:1.0.2-fabric"
 	modImplementation "curse.maven:forge-config-api-port-fabric-547434:5902421"
     modImplementation "curse.maven:tacz-refabricated-1334246:6977703"
-	modImplementation "curse.maven:cardinal-components-api-318449:4681153"
 }
 
 processResources {

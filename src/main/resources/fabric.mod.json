@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "elitex",
+	"version": "4.0.7",
+	"name": "Elite x Quality Guns Fabric",
+	"description": "Most Advanced Guns mod You will never see this type of Maxed out Quality Gun assets EVER BEFORE",
+	"authors": [
+		"Argos Williams, ifibers , sharp14"
+	],
+	"license": "All rights Reserved",
+	"icon": "assets/elitex/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.argos.elitex.ElitexQualityGunsFabric"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
