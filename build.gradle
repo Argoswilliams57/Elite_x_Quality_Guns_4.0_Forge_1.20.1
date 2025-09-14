@@ -1,117 +1,80 @@
-buildscript {
-    repositories {
-        maven { url = 'https://files.minecraftforge.net/maven' }
-        mavenCentral()
-    }
-    dependencies {
-        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '6.0+', changing: true
-    }
+plugins {
+	id 'fabric-loom' version '1.7-SNAPSHOT'
+	id 'maven-publish'
 }
 
-apply plugin: 'net.minecraftforge.gradle'
-apply plugin: 'maven-publish'
+version = project.mod_version
+group = project.maven_group
 
-
-
-version = "4.0.7 beta"
-group = "com.elitexstudios.elitex"
-archivesBaseName = "Elite X Quality Guns Forge"
-
-java.toolchain.languageVersion = JavaLanguageVersion.of(17)
-
-minecraft {
-    mappings channel: 'official', version: '1.20.1'
-
-    runs {
-        client {
-            workingDirectory project.file('run')
-            property 'forge.logging.markers', 'REGISTRIES'
-            property 'forge.logging.console.level', 'debug'
-            property 'mixin.env.disableRefMap', 'true'
-
-            mods {
-                elitex {
-                    source sourceSets.main
-                }
-            }
-        }
-
-        server {
-            workingDirectory project.file('run')
-            property 'forge.logging.markers', 'REGISTRIES'
-            property 'forge.logging.console.level', 'debug'
-            property 'mixin.env.disableRefMap', 'true'
-
-            mods {
-                elitex {
-                    source sourceSets.main
-                }
-            }
-        }
-
-        data {
-            workingDirectory project.file('run')
-            property 'forge.logging.markers', 'REGISTRIES'
-            property 'forge.logging.console.level', 'debug'
-            property 'mixin.env.disableRefMap', 'true'
-            args '--mod', 'elitex', '--all', '--output', file('src/generated/resources/')
-
-            mods {
-                elitex {
-                    source sourceSets.main
-                }
-            }
-        }
-    }
+base {
+	archivesName = project.archives_base_name
 }
-
-sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-    maven {
-        url = "https://www.cursemaven.com"
-    }
+	maven {
+		url "https://cursemaven.com"
+		content {
+			includeGroup "curse.maven"
+		}
+	}
+	flatDir {
+		dirs 'libs/mods'
+	}
 
-    flatDir {
-        dirs 'libs/mods'
-    }
+}
 
+fabricApi {
+	configureDataGeneration()
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.20.1-47.3.0'
-    implementation fg.deobf("curse.maven:timeless-and-classics-zero-1028108:6058563")
-    implementation fg.deobf("curse.maven:gunsmith-lib-1264058:6557549")
-    //implementation fileTree(dir: 'libs/libraries', include: ['*.jar'])
-    //implementation ('mod:tacz-1.20.1-1209-074221-all')
-    runtimeOnly fg.deobf('curse.maven:jei-238222:4712868')
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	//implementation fileTree(dir: 'libs/libraries', include: ['*.jar'])
+	//modImplementation "mod:tacz-fabric-1.20.1:1.0.2-fabric"
+	modImplementation "curse.maven:forge-config-api-port-fabric-547434:5902421"
+    modImplementation "curse.maven:tacz-refabricated-1334246:6977703"
+	modImplementation "curse.maven:cardinal-components-api-318449:4681153"
+}
+
+processResources {
+	inputs.property "version", project.version
+
+	filesMatching("fabric.mod.json") {
+		expand "version": project.version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 17
+}
+
+java {
+	withSourcesJar()
+
+	sourceCompatibility = JavaVersion.VERSION_17
+	targetCompatibility = JavaVersion.VERSION_17
 }
 
 jar {
-    manifest {
-        attributes([
-                "Specification-Title": "Elite X Quality Guns",
-                "Specification-Vendor": "Argos Williams",
-                "Specification-Version": "3.3",
-                "Implementation-Title": project.name,
-                "Implementation-Version": project.jar.archiveVersion,
-                "Implementation-Vendor" :"Argos Williams",
-                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
-        ])
-    }
+	from("LICENSE") {
+		rename { "${it}_${project.base.archivesName.get()}"}
+	}
 }
 
-jar.finalizedBy('reobfJar')
-
+// configure the maven publication
 publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            artifact jar
-        }
-    }
-    repositories {
-        maven {
-            url "file:///${project.projectDir}/mcmodsrepo"
-        }
-    }
+	publications {
+		create("mavenJava", MavenPublication) {
+			artifactId = project.archives_base_name
+			from components.java
+		}
+	}
+
+	repositories {
+		// Add repositories to publish to here.
+
+	}
 }
