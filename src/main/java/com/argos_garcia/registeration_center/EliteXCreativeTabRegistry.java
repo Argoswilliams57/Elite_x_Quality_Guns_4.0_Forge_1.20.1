@@ -44,6 +44,8 @@ public class EliteXCreativeTabRegistry {
                         //Smgs
                         output.accept(createCustomNBTItem(GunItem, "elitex:ro635v3", 32, "AUTO", true, "elitex.gun.ro635v3.name"));
                         output.accept(createCustomNBTItem(GunItem, "elitex:mp5_classic", 30, "AUTO", true, "elitex.gun.mp5_classic.name"));
+                        output.accept(createCustomNBTItem(GunItem, "elitex:vector45acp", 35, "AUTO", true, "elitex.gun.vector45acp.name"));
+
 
 
                         //Assault Rifles
@@ -52,7 +54,12 @@ public class EliteXCreativeTabRegistry {
                         output.accept(createCustomNBTItem(GunItem, "elitex:mcs_spear", 20, "AUTO", true, "elitex.gun.mcs_spear.name"));
                         output.accept(createCustomNBTItem(GunItem, "elitex:famas_f1", 25, "AUTO", true, "elitex.gun.famas_f1.name"));
                         output.accept(createCustomNBTItem(GunItem, "elitex:akx105", 30, "AUTO", true, "elitex.gun.akx105.name"));
-                        output.accept(createCustomNBTItem(GunItem, "elitex:sassy_dmr", 20, "AUTO", true, "elitex.gun.sassy_dmr.name"));
+                        output.accept(createCustomNBTItem(GunItem, "elitex:fh_scar18", 20, "SEMI", true, "elitex.gun.fh_scar18.name"));
+                        output.accept(createCustomNBTItem(GunItem, "elitex:fs_scar19", 30, "AUTO", true, "elitex.gun.fs_scar19.name"));
+
+
+                        // Dmrs Mrrksman Rifles
+                        output.accept(createCustomNBTItem(GunItem, "elitex:sassy_dmr", 20, "SEMI", true, "elitex.gun.sassy_dmr.name"));
 
 
 
@@ -78,6 +85,8 @@ public class EliteXCreativeTabRegistry {
                         //Snipers
                         output.accept(createCustomNBTItem(GunItem, "elitex:inter_m200", 7, "SEMI", true, "elitex.gun.inter_m200.name"));
 
+                        //Lmgs
+                        output.accept(createCustomNBTItem(GunItem, "elitex:m249x", 150, "AUTO", false, "elitex.gun.m249x.name"));
 
 
 

@@ -1,6 +1,6 @@
 {
   "ammo": "tacz:556x45",
-  "ammo_amount": 155,
+  "ammo_amount": 150,
   "bolt": "open_bolt",
   "rpm": 790,
   "bullet": {
