@@ -10,5 +10,6 @@
   "result": {
     "type": "gun",
     "id": "elitex:trs_bull"
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

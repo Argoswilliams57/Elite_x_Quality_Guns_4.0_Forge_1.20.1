@@ -29,6 +29,8 @@
     50,
     60
   ],
+
+
   "script": "elitex:extended_mag_reload_logic",
   "script_param": {
     "reload_feed": 2.32,
@@ -54,6 +56,7 @@
     "empty_xmag_3_feed": 3.6,
     "empty_xmag_3_cooldown": 3.9
   },
+
   "bolt": "closed_bolt",
   "reload": {
     "type": "magazine",

@@ -23,5 +23,6 @@
   "result": {
     "type": "gun",
     "id": "elitex:sassy_dmr"
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

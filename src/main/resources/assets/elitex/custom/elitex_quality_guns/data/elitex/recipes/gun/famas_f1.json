@@ -4,7 +4,7 @@
       "item": {
         "tag": "forge:ingots/iron"
       },
-      "count": 40
+      "count":23
     },
     {
       "item": {
@@ -16,5 +16,6 @@
   "result": {
     "type": "gun",
     "id": "elitex:famas_f1"
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

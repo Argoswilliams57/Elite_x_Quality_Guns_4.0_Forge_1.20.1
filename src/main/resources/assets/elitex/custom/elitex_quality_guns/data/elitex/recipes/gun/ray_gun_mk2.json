@@ -52,5 +52,6 @@
   "result": {
     "type": "gun",
     "id": "elitex:ray_gun_mk2"
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

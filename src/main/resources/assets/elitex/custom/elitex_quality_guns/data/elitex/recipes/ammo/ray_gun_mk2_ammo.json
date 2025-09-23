@@ -23,5 +23,6 @@
     "type": "ammo",
     "id": "elitex:ray_gun_mk2_ammo",
     "count": 78
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

@@ -10,5 +10,6 @@
   "result": {
     "type": "gun",
     "id": "elitex:vector45acp"
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

@@ -10,5 +10,6 @@
   "result": {
     "type": "gun",
     "id": "elitex:mcs_spear"
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

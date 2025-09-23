@@ -28,5 +28,6 @@
   "result": {
     "type": "gun",
     "id": "elitex:origin_fire_staff"
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

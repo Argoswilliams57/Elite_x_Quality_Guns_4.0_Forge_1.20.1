@@ -10,11 +10,12 @@
       "item": {
         "tag": "minecraft:planks"
       },
-      "count": 3
+      "count": 1
     }
   ],
   "result": {
     "type": "gun",
     "id": "elitex:ak47x"
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

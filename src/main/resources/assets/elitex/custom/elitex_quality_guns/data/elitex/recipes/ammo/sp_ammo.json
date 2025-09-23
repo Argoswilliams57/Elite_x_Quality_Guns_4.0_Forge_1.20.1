@@ -17,5 +17,6 @@
     "type": "ammo",
     "id": "elitex:sp_ammo",
     "count": 36
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

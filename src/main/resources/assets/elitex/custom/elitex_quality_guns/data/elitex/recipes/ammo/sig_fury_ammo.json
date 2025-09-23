@@ -17,5 +17,6 @@
     "type": "ammo",
     "id": "elitex:sig_fury_ammo",
     "count": 64
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

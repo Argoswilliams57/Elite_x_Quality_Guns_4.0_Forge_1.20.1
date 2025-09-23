@@ -29,5 +29,6 @@
     "type": "ammo",
     "id": "elitex:waffe_ammo",
     "count": 78
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

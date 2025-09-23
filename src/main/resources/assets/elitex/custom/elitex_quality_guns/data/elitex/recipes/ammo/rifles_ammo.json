@@ -17,5 +17,6 @@
     "type": "ammo",
     "id": "elitex:rifles_ammo",
     "count": 48
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

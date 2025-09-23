@@ -10,5 +10,6 @@
   "result": {
     "type": "gun",
     "id": "elitex:m4_sopmod"
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

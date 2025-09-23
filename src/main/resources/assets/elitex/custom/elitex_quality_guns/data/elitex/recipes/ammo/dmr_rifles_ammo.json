@@ -18,5 +18,6 @@
     "type": "ammo",
     "id": "elitex:dmr_rifles_ammo",
     "count": 48
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

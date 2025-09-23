@@ -10,5 +10,6 @@
   "result": {
     "type": "gun",
     "id": "elitex:jrx"
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

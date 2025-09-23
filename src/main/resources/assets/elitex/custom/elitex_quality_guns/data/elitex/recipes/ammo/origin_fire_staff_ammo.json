@@ -23,5 +23,6 @@
     "type": "ammo",
     "id": "elitex:origin_fire_staff_ammo",
     "count": 64
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

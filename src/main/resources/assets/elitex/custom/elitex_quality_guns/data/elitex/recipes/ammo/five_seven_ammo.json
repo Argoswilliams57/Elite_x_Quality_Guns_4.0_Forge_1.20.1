@@ -17,5 +17,6 @@
       "type": "ammo",
       "id": "elitex:five_seven_ammo",
       "count": 42
-    }
+    },
+  "type": "tacz:gun_smith_table_crafting"
   }

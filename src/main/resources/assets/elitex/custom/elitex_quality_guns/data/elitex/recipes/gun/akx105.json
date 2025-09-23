@@ -22,5 +22,6 @@
   "result": {
     "type": "gun",
     "id": "elitex:akx105"
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

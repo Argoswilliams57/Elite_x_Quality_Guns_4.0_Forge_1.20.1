@@ -1,9 +1,9 @@
 {
-
   "whitelist": [
-    "^.*$"
+    ""
   ],
+
   "blacklist": [
-    "elitex:test"
+    "^elitex:.*$"
   ]
 }

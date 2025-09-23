@@ -40,5 +40,6 @@
   "result": {
     "type": "gun",
     "id": "elitex:wonder_waffle"
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

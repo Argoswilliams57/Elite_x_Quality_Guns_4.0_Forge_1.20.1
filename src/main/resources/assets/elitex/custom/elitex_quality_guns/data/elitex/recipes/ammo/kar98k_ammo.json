@@ -17,5 +17,6 @@
     "type": "ammo",
     "id": "elitex:kar98k_ammo",
     "count": 34
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

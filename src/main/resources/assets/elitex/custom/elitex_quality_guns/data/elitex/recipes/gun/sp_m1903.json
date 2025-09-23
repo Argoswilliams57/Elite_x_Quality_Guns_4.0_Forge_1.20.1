@@ -16,5 +16,6 @@
   "result": {
     "type": "gun",
     "id": "elitex:sp_m1903"
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

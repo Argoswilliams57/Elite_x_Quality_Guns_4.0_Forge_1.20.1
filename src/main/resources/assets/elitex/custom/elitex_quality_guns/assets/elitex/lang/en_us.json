@@ -15,6 +15,8 @@
   "elitex.gun.mp5_classic.name": "Mp5 Classic",
   "elitex.gun.vector45acp.name": "Kriss Vector",
 
+
+  "elitex.gun.golden_ak.name": "Saddam Hussain's §e§l Golden AK§r",
   "elitex.gun.ak47x.name": "AK47",
   "elitex.gun.akx105.name": "Akx105",
   "elitex.gun.famas_f1.name": "French Famas F1",
@@ -22,6 +24,9 @@
   "elitex.gun.mcs_spear.name": "Sig MCX Spear",
   "elitex.gun.fh_scar18.name": " FH Scar 18",
   "elitex.gun.fs_scar19.name": " FH Scar 19",
+  "elitex.gun.m4a1_classic.name": "M4A1 Classic",
+  "elitex.gun.m16.name": "M16A4",
+
 
   "elitex.gun.raygun_bo6.name": "Ray Gun",
   "elitex.gun.ray_gun_mk2.name": "Ray Gun Mark II",
@@ -33,9 +38,9 @@
   "elitex.gun.origin_fire_staff.name": "Origins Fire Staff",
 
   "elitex.gun.benelli_super.name": "Benelli Super nova",
+  "elitex.gun.spaz12.name": "Spas 12",
 
   "elitex.gun.m249x.name": "M249 Saw",
-
 
 
 
@@ -82,7 +87,7 @@
   "elitex.gun.kar98k.desc" : "Most iconic Rifle in Modern History",
   "elitex.gun.five_seven.desc" : "Sometimes even a Lightweight unique hammer less pistol comes reliable",
   "elitex.gun.origin_electric_staff.desc" : "Electrical Staff from Black Ops Zombies Get Ready for Electrical burst!!! ",
-  "elitex.gun.origin_ice_staff.desc" : "Get ready to be Freazed from this Ice Staff!! ",
+  "elitex.gun.origin_ice_staff.desc" : "Get ready to be Freezed from this Ice Staff!! ",
   "elitex.gun.origin_fire_staff.desc" : "Not Fire Resistance , YOURE FIRED!! ",
   "elitex.gun.origin_wind_staff.desc" : "This is gonna blow you the hell out  ",
   "elitex.gun.ro635v3.desc" : "Ro635 next gen upgraded v3 inspired from GFL Character",
@@ -99,6 +104,13 @@
   "elitex.gun.sassy_dmr.desc": "M100 Marksman DMR SAS , why I called it Sassy , because why not",
   "elitex.gun.fh_scar18.desc": "Belgian made everyones best Friend , gets the job done chambered in 7.62mm",
   "elitex.gun.fs_scar19.desc": "Yeah FS Scar 19 that what i call it , Extreme Rate of Fire gets the job done  with 5.556",
-  "elitex.gun.vector45acp.desc": "Kriss Vector but now Chambered in 45acp also acceptes 9mm  but We have chosen 45acp",
-  "elitex.gun.m249x.desc": "Its metal, it hurts,  and its pointed at you!"
+  "elitex.gun.vector45acp.desc": "Kriss Vector but now Chambered in 45acp also accepts 9mm  but We have chosen 45acp",
+  "elitex.gun.m249x.desc": "Its metal, it hurts,  and its pointed at you!",
+  "elitex.gun.spaz12.desc": "ITS THE BIG DADDY,SPAS 12!",
+  "elitex.gun.m4a1_classic.desc": "Its Reliable with Classic carry handle, my beloved from classic call of duty",
+  "elitex.gun.m16.desc": "Trust me , sometimes I was in Vietnam!",
+  "elitex.gun.golden_ak.desc": "Saddam Hussein's golden AK rifle was founded in a royal palace in Iraq during the invasion in 2003 by US, though it is now on display at the Royal Armouries Museum",
+  "elitex.block.elitebench.name": "Elitebench",
+  "elitex.block.elitebench.desc": "Elitebench for Elite x Quality Guns mod"
+
 }

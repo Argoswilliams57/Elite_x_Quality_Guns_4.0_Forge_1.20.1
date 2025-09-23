@@ -23,5 +23,6 @@
   "result": {
     "type": "gun",
     "id": "elitex:inter_m200"
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

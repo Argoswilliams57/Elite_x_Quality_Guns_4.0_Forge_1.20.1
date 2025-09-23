@@ -15,6 +15,8 @@ intervention Sniper Model by sharp14
 FH Scar 18 Model by sharp14
 FS Scar 19 Model by sharp14
 
+ Spas 12 Modified Logic and Statemachine  lua script by Koei
+
 Simple M1 garand lua Script by Argos Williams
 
 Ray gun Mark 2 Sounds By Tryyarch Activision
@@ -26,4 +28,4 @@ Mustang and Sally sounds By Tryyarch Activision
 
 
 M1 garand statemachine backup was used with permission from Silver hamster the creator of gunpowder revolution gunpack
-Rest of th gun models with Animations Are Owned and a Intellectual property  of Argos Williams
+Rest of th gun models with Animations Are Owned and a Intellectual property  of Argos Williams rights reserved

@@ -16,5 +16,6 @@
   "result": {
     "type": "gun",
     "id": "elitex:mustang_and_sally"
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }

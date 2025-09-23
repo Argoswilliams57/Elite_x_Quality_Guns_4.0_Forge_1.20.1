@@ -10,5 +10,6 @@
   "result": {
     "type": "gun",
     "id": "elitex:mp5_classic"
-  }
+  },
+  "type": "tacz:gun_smith_table_crafting"
 }
