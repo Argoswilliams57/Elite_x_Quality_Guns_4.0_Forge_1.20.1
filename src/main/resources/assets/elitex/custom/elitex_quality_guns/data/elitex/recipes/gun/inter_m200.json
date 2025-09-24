@@ -17,6 +17,12 @@
         "tag": "forge:dusts/redstone"
       },
       "count": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:green_dye"
+      },
+      "count": 1
     }
 
   ],

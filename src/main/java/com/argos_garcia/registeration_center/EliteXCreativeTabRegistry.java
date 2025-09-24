@@ -57,7 +57,7 @@ public class EliteXCreativeTabRegistry {
                         output.accept(createCustomNBTItem(GunItem, "elitex:fh_scar18", 20, "SEMI", true, "elitex.gun.fh_scar18.name"));
                         output.accept(createCustomNBTItem(GunItem, "elitex:fs_scar19", 30, "AUTO", true, "elitex.gun.fs_scar19.name"));
                         output.accept(createCustomNBTItem(GunItem, "elitex:m4a1_classic", 30, "AUTO", true, "elitex.gun.m4a1_classic.name"));
-                        output.accept(createCustomNBTItem(GunItem, "elitex:m16", 30, "AUTO", true, "elitex.gun.m16.name"));
+                        output.accept(createCustomNBTItem(GunItem, "elitex:m16", 30, "BURST", true, "elitex.gun.m16.name"));
                         output.accept(createCustomNBTItem(GunItem, "elitex:golden_ak", 30, "AUTO", true, "elitex.gun.golden_ak.name"));
 
 
@@ -74,6 +74,7 @@ public class EliteXCreativeTabRegistry {
                         output.accept(createCustomNBTItem(GunItem, "elitex:origin_fire_staff", 10, "SEMI", false, "elitex.gun.origin_fire_staff.name"));
                         output.accept(createCustomNBTItem(GunItem, "elitex:origin_ice_staff", 10, "SEMI", false, "elitex.gun.origin_ice_staff.name"));
                         output.accept(createCustomNBTItem(GunItem, "elitex:origin_wind_staff", 10, "SEMI", false, "elitex.gun.origin_wind_staff.name"));
+
 
                         //Shotguns
                         output.accept(createCustomNBTItem(GunItem, "elitex:benelli_super", 8, "SEMI", true, "elitex.gun.benelli_super.name"));

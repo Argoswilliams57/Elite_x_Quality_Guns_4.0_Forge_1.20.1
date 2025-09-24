@@ -5,6 +5,12 @@
         "tag": "forge:ingots/iron"
       },
       "count": 16
+    },
+    {
+      "item": {
+        "item": "minecraft:black_dye"
+      },
+      "count": 1
     }
   ],
   "result": {

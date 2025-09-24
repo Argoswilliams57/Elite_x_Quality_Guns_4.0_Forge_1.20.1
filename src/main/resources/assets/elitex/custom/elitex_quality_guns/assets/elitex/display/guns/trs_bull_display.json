@@ -13,9 +13,9 @@
   "state_machine": "elitex:sp_m1903_gun_state_machine",
   "transform": {
     "scale": {
-      "thirdperson": [0.7, 0.7, 0.7],
+      "thirdperson": [0.8, 0.8, 0.8],
       "ground": [0.7, 0.7, 0.7],
-      "fixed": [1.0, 1.0, 1.0]
+      "fixed": [1.1, 1.1, 1.1]
     }
   },
   "muzzle_flash": {

@@ -18,13 +18,13 @@
     },
     "speed": 260,
     "gravity": 0.0245,
-    "knockback": 2.1,
+    "knockback": 1.1,
     "friction": 0.01,
     "pierce": 1,
       "explosion": {
       "explode": true,
       "damage": 130,
-      "radius": 1,
+      "radius": 3,
       "knockback": true,
       "destroy_block": false,
       "delay": 2
